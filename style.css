@@ -1,0 +1,174 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body {
+  background-color: plum;
+  color: rgb (255, 192, 203);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  Color: rgb (255, 292, 203);
+  font-size: large;
+  text-align: center;
+  Margin: 0;
+}
+
+Img { 
+  width: 100vw;
+}
+
+H1 {
+  color: rgb (255, 292, 203);
+  font-size: 3rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: rgb(249, 255, 134);
+  width: 100vw;
+}
+
+/* unvisited link */
+a:link {
+  color: hotpink;
+}
+
+/* visited link */
+a:visited {
+  color: blueviolet;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+#contactinformatie {
+  color: orange;
+  font-weight: bold;
+  margin: 100;
+}
+
+h2 {
+  color: red;
+  font-size: 13rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(221, 219, 227);
+}
+
+.menu-item {
+background-color: aqua;
+}
+
+.menu-item hover {
+  Background-color: rgb(255,255,0);
+}
+
+.mijndivs{
+  background-color: lightcyan;
+  width: 100vw;
+  margin: 200px;
+  padding: 10px;
+  border: 3px solid lightcoral;
+  text-align-last: auto;
+}
+
+#mijndiv2 {
+  background-image: url(Images/Bloemen\ art.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: aliceblue;
+  
+  /*Dit is de Flex methode*/
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline;
+    justify-content: center;
+}
+
+#mijndiv1 {
+  margin: 200px;
+  height: 25vh;
+}
+
+
+#mijndiv4 {
+ /*Dit is de Flex methode om content in het midden uit te lijnen*/
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+    justify-content: center;
+}
+
+#mijndiv5 {
+  margin: 200px;
+  height: 25vh;
+  background-image:url(Images/Dalia.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mijnDivCSS {
+  /*Dit is de Flex methode om content in het midden uit te lijnen*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+#aub{
+  height: 200px;
+  background-color: lightyellow;
+  justify-content: center;
+}
+
+#center{
+  font-size: larger;
+  height: 200px;
+  background-color: lightyellow;
+
+}
+
+#tekstvak{
+  margin: 100px;
+  width: 100vw;
+    /*Dit is de Flex methode om content in het midden uit te lijnen*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    tekst-align: center
+    
+}
+
+#jongerouderplaatje{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-size: contain;
+}
